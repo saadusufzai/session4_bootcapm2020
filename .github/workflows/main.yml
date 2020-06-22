@@ -29,11 +29,11 @@ jobs:
 
     # Runs a set of commands using the runners shell
     - name: NPM or Yarn install with caching
-      uses: npm-install
+      uses: npm-install@v2-beta
         
     - name: ceating build
       run: npm run build
-    
+     
     - name: installing surge
       run: npm install -g surge
       
