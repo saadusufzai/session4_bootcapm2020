@@ -19,7 +19,7 @@ import Counter from './counter'
         </button>
         <button onClick={()=>{setDay(!isday)}}>Change Day</button>
 
-
+             
         </div>
     )
 }
