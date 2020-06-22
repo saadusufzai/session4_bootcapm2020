@@ -28,8 +28,8 @@ jobs:
         version: 12  
 
     # Runs a set of commands using the runners shell
-    - name: NPM or Yarn install with caching
-      uses: comchangs/action-yarn@v0.1-beta
+    - name: GitHub Action for Yarn
+      uses: Borales/actions-yarn@2.1.0
         
     - name: ceating build
       run: yarn build
