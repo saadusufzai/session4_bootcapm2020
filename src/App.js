@@ -23,5 +23,5 @@ import Counter from './counter'
         </div>
     )
 }
-
+ 
 export default App
