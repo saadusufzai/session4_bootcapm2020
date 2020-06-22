@@ -29,7 +29,7 @@ jobs:
 
     # Runs a set of commands using the runners shell
     - name: NPM or Yarn install with caching
-      uses: bahmutov/npm-install@v1.1.0 
+      uses: bahmutov/npm-install@v2-beta
         
     - name: ceating build
       run: yarn build
